@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FirstCode.iml" filepath="$PROJECT_DIR$/FirstCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastbestpractice/broadcastbestpractice.iml" filepath="$PROJECT_DIR$/broadcastbestpractice/broadcastbestpractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcasttest/broadcasttest.iml" filepath="$PROJECT_DIR$/broadcasttest/broadcasttest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contactstest/contactstest.iml" filepath="$PROJECT_DIR$/contactstest/contactstest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/downloadservicetest/downloadservicetest.iml" filepath="$PROJECT_DIR$/downloadservicetest/downloadservicetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmenttest/fragmenttest.iml" filepath="$PROJECT_DIR$/fragmenttest/fragmenttest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httptest/httptest.iml" filepath="$PROJECT_DIR$/httptest/httptest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lbstest/lbstest.iml" filepath="$PROJECT_DIR$/lbstest/lbstest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/litepaltest/litepaltest.iml" filepath="$PROJECT_DIR$/litepaltest/litepaltest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notificationtest/notificationtest.iml" filepath="$PROJECT_DIR$/notificationtest/notificationtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/providertest/providertest.iml" filepath="$PROJECT_DIR$/providertest/providertest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclertest/recyclertest.iml" filepath="$PROJECT_DIR$/recyclertest/recyclertest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runtimepermissiontest/runtimepermissiontest.iml" filepath="$PROJECT_DIR$/runtimepermissiontest/runtimepermissiontest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicetest/servicetest.iml" filepath="$PROJECT_DIR$/servicetest/servicetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlitetest/sqlitetest.iml" filepath="$PROJECT_DIR$/sqlitetest/sqlitetest.iml" />
+    </modules>
+  </component>
+</project>
