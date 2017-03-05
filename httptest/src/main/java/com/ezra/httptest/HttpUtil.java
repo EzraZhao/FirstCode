@@ -1,5 +1,10 @@
 package com.ezra.httptest;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.widget.Toast;
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -16,6 +21,12 @@ import okhttp3.Request;
 public class HttpUtil {
 
     public static void sentHttpRequest(final String address, final HttpCallbackListener listener) {
+
+        if (!isNetworkAvailable()) {
+            Toast.makeText(MyApplication.getContext(),
+                    "network is unavailable", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
         new Thread(new Runnable() {
             @Override
@@ -55,6 +66,19 @@ public class HttpUtil {
                 }
             }
         }).start();
+    }
+
+    private static boolean isNetworkAvailable() {
+        Context context = MyApplication.getContext();
+        if (context != null) {
+            ConnectivityManager mConnectivityManager = (ConnectivityManager) context
+                    .getSystemService(Context.CONNECTIVITY_SERVICE);
+            NetworkInfo mNetworkInfo = mConnectivityManager.getActiveNetworkInfo();
+            if (mNetworkInfo != null) {
+                return mNetworkInfo.isAvailable();
+            }
+        }
+        return false;
     }
 
     public static void sendOkHttpRequest(String address, okhttp3.Callback callback) {

@@ -1,1 +1,1 @@
-include ':app', ':broadcasttest', ':broadcastbestpractice', ':contactstest', ':fragmenttest', ':litepaltest', ':notificationtest', ':providertest', ':recyclertest', ':runtimepermissiontest', ':servicetest', ':downloadservicetest', ':sqlitetest', ':httptest', ':lbstest'
+include ':app', ':broadcasttest', ':broadcastbestpractice', ':contactstest', ':fragmenttest', ':litepaltest', ':notificationtest', ':providertest', ':recyclertest', ':runtimepermissiontest', ':servicetest', ':downloadservicetest', ':sqlitetest', ':httptest', ':lbstest', ':materialtest'

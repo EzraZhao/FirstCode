@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/httptest" />
             <option value="$PROJECT_DIR$/lbstest" />
             <option value="$PROJECT_DIR$/litepaltest" />
+            <option value="$PROJECT_DIR$/materialtest" />
             <option value="$PROJECT_DIR$/notificationtest" />
             <option value="$PROJECT_DIR$/providertest" />
             <option value="$PROJECT_DIR$/recyclertest" />

@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/httptest/httptest.iml" filepath="$PROJECT_DIR$/httptest/httptest.iml" />
       <module fileurl="file://$PROJECT_DIR$/lbstest/lbstest.iml" filepath="$PROJECT_DIR$/lbstest/lbstest.iml" />
       <module fileurl="file://$PROJECT_DIR$/litepaltest/litepaltest.iml" filepath="$PROJECT_DIR$/litepaltest/litepaltest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialtest/materialtest.iml" filepath="$PROJECT_DIR$/materialtest/materialtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/notificationtest/notificationtest.iml" filepath="$PROJECT_DIR$/notificationtest/notificationtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/providertest/providertest.iml" filepath="$PROJECT_DIR$/providertest/providertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclertest/recyclertest.iml" filepath="$PROJECT_DIR$/recyclertest/recyclertest.iml" />
